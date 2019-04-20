@@ -17,9 +17,10 @@ kNN -> 决策树：kNN 无法给出数据的内在含义，决策树可以。
 
 香农熵：信息的期望值
 
-信息 *l*($x_i$) = -$log_2$p($x_i$)
 
-熵 *H* = -$\sum_1^n$p($x_i$)$log_2$p($x_i$)
+信息 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{150}&space;\bg_white&space;\small&space;l(x_i)&space;=&space;-log_2p(x_i)" title="\small l(x_i) = -log_2p(x_i)" />
+
+熵 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{150}&space;\bg_white&space;\small&space;H&space;=&space;-\sum_{i=1}^{n}p(x_i)log_2p(x_i)" title="\small H = -\sum_{i=1}^{n}p(x_i)log_2p(x_i)" />
 
 香农熵只和 label 的值有关，与 feature 的值无关。
 
