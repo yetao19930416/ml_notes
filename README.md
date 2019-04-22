@@ -2,6 +2,7 @@
 
 1. [版本空间具体是怎么算的？](version_space.md)
 2. [决策树入门](dtree.md)
+3. [Logistic Regression](log_reg.md)
 
 
 资料来源：
